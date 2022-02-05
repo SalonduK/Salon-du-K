@@ -104,14 +104,6 @@
     right: auto;
     left: -25px;
 }
-.slick-next:before
-{
-    content: '→';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
-}
 
 /* Dots */
 .slick-dotted.slick-slider
