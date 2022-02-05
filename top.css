@@ -272,7 +272,7 @@ video {
   margin: 0 auto;
 }
 #menu {
-  background-image: url("../../../名称未設定サイト 2/background.png");
+  background-image: url("https://github.com/SalonduK/Salon-du-K/blob/main/background.png?raw=true");
   background-position: right;
   background-size: cover;
 }
@@ -610,7 +610,7 @@ font-size: 50px;
     margin-bottom: 40px;
   width: 100%;
   display: inline-block;
-  background-image: url("../../../名称未設定サイト 2/4620693218526556303.c74492a7ff2098d2f399f4d8ebc8c4d5.21072912.JPG");
+  background-image: url("https://github.com/SalonduK/Salon-du-K/blob/main/4620693218526556303.c74492a7ff2098d2f399f4d8ebc8c4d5.21072912.JPG?raw=true");
   background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
