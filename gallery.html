@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+<title>Salon du K</title>
+   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+ <header class="header">
+  <h1 class="header-logo"><a href="index.html">Salon du K</a></h1>
+  <div id="nav-drawer">
+    <input id="nav-input" class="none" type="checkbox">
+    <label id="nav-open" for="nav-input"><span></span></label>
+    <label id="nav-close" class="none" for="nav-input"></label>
+  <nav id="nav-content" class="header__navigation">
+    <div class="nav-drewer__title none">Salon du K</div>
+    <ul>
+   <li><a class="nav-drawer__link-top none" href="index.html">TOP</a></li>
+       <li><a href="index.html#about">ABOUT</a></li>
+      <li><a href="menu.html">MENU</a></li>
+       <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="index.html#access">ACCESS</a></li>
+        <li><a href="https://beauty.hotpepper.jp/kr/slnH000550363/">RESERVE</a></li>
+    </ul>
+   </nav>
+     </div>
+   <hr size="16" width="100%" color="#DBE1D7">
+      </header>
+    
+    <main>
+     
+       
+       
+        
+    <div class="gallery-top-image"> 
+    <img  src="images/るいサイトメニュービジュアル2.jpg" alt="" width="100%">
+      <div class="gallery-top-text">
+        <h1>GALLERY</h1>
+       </div>
+      </div>
+     
+        
+         <section class="images">
+           <div class="fadein"> 
+             <h2 id="eyelush">EYELUSH</h2>
+                </div>
+           
+          <div class="eyelush-images-list">
+             <div class="fadein"> 
+            <div class="images-list1">
+              <img class="eyelush-picture" src="images/S__1941931.jpg" alt="eyelushフォト">
+              <img class="eyelush-picture" src="images/S__1941937.jpg" alt="eyelushフォト">
+              <img class="eyelush-picture" src="images/S__1941932.jpg" alt="eyelushフォト">
+            </div>
+            <div class="images-list2">
+              <img class="eyelush-picture" src="images/S__1941934.jpg" alt="eyelushフォト">
+              <img class="eyelush-picture" src="images/S__1941935.jpg" alt="eyelushフォト">
+              <img class="eyelush-picture" src="images/S__1941930.jpg" alt="eyelushフォト">
+            </div>
+            <div class="images-list3">
+              <img class="eyelush-picture" src="images/IMG_0195.jpg" alt="eyelushフォト">
+              <img class="eyelush-picture" src="images/S__1941938.jpg" alt="eyelushフォト">
+             <div class="insta-btn">
+      <a class="insta-btn" href="https://www.instagram.com/rui.nnnn/?utm_medium=copy_link">
+      <img class="insta" src="images/iconmonstr-instagram-11-240.png" alt="Instagram">
+        <p>@rui.nnnn</p></a>
+        </div>
+            </div>
+          </div>
+            </div>
+           
+        
+          <hr class="border">
+  
+        <div class="nail-images-list">
+           <div class="fadein"> 
+            <h2 id="nail">NAIL</h2>
+           </div>
+          <div>
+            <div class="fadein"> 
+            <div class="images-list1">
+             <img class="nail-picture" src="images/S__1941924.jpg" alt="nailフォト">
+              <img class="nail-picture" src="images/S__1941925.jpg" alt="nailフォト">
+             <img class="nail-picture" src="images/4620693218526556303.7f9f90239482df88323db2bda8c46c4d.21072912.JPG" alt="nailフォト">
+            </div>
+            <div class="images-list2">
+              <img class="nail-picture" src="images/S__1941928.jpg" alt="nailフォト">
+              <img class="nail-picture" src="images/S__1941921.jpg" alt="nailフォト">
+              <img class="nail-picture" src="images/4620693218526556303.1b037a659a29948ac95fb645764f8533.21072912.JPG" alt="nailフォト">
+            </div>
+            <div class="images-list3">
+             <img class="nail-picture" src="images/S__1941923.jpg" alt="nailフォト">
+              <img class="nail-picture" src="images/4620693218526556303.156d77d72c3185fb5520661b2d9b0d11.21072912.JPG" alt="nailフォト">
+            <div class="insta-btn">
+      <a class="insta-btn" href="https://www.instagram.com/salon_du_k/?hl=en">
+      <img class="insta" src="images/iconmonstr-instagram-11-240.png" alt="Instagram">
+        <p>@salon_du_k</p></a>
+        </div>
+          </div>
+           </div>
+            </div>
+          </div>
+            <div class="reserve-btn">
+      <a href="https://beauty.hotpepper.jp/kr/slnH000550363/">
+      <img src="images/名称未設定-1.png" alt="">
+        </a>
+       </div>
+         </section>
+        
+         <hr size="16" width="100%" color="#DBE1D7">
+    </main>
+      <footer class="footer">
+    <p>
+        Copyright ⓒ 2021 Salon du K.
+      </p>
+    
+    </footer>  
+  <script>
+  $(function(){
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var targetElement = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > targetElement - windowHeight + 150){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
+  
+  </script>
+</body>
+</html>

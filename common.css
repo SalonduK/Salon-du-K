@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+  width: 100%;
+  box-sizing: border-box;
+}
+body {
+  color: #707070; /* RGB */
+  font-family:  \\6E38\660E\671D\4F53,YuMincho,\\6E38\660E\671D,Yu Mincho,\\30D2\30E9\30AE\30CE\660E\671D ProN W3,Hiragino Mincho ProN W3,HiraMinProN-W3,\\30D2\30E9\30AE\30CE\660E\671D ProN,Hiragino Mincho ProN,\\30D2\30E9\30AE\30CE\660E\671D Pro,Hiragino Mincho Pro,"HGS\660E\671D E","\FF2D\FF33 \FF30\660E\671D",MS PMincho,serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+a:hover {
+  opacity: 0.5;
+}
+.none {
+  display: none;
+}
