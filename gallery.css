@@ -213,6 +213,7 @@ h2:before {
     margin-left: 5px;
 }
 .insta {
+  display: inline-block;
   width: 70px;
     opacity: 0.5;
 position: relative;
